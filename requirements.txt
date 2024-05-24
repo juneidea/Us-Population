@@ -1,0 +1,7 @@
+altair
+Babel
+dash
+dash-vega-components
+pandas
+pandas-stubs
+plotly

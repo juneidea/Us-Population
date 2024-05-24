@@ -1,0 +1,72 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:hsl(0, 0%, 88%);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background:hsl(0, 0%, 77%);
+    border-radius: 100vw;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+}
+
+#year-dropdown, #color-dropdown {
+    width: 200px;
+    margin-right: 20px;
+}
+
+#demographics {
+    display: flex;
+}
+
+#us-map {
+    width: 650px;
+}
+
+#population-table {
+    flex: 1, 1;
+}
+
+#gains #card:nth-child(1){
+    border: 1px solid #1f5224;
+}
+
+
+#gains #card:nth-child(2){
+    border: 1px solid #48c454;
+}
+
+
+#gains #card:nth-child(3){
+    border: 1px solid #85ff91;
+}
+
+#losses #card:nth-child(1){
+    border: 1px solid #782525;
+}
+
+#losses #card:nth-child(2){
+    border: 1px solid #c94343;
+}
+
+#losses #card:nth-child(3){
+    border: 1px solid #ff8d8d;
+}
+
+
+.dash-table-container {
+    height: 350px;
+    overflow-y: scroll;
+    padding-right: 4px;
+}
